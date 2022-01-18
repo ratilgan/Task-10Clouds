@@ -7,7 +7,7 @@
 ## Tech stack
 * Javascript
 * Npm
-* Cypress 8.1.2
+* Cypress 8.7.0
 * NodeJS 16.13.2
 * Mocha 9.1.4
 * Visual Studio Code
