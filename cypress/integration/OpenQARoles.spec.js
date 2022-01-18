@@ -18,9 +18,9 @@ describe('Searching for open QA Engineer roles in 10Clouds', () => {
         CareersPage.allDepartmentsDropdown().click()
         CareersPage.departmentQA().click()     
         
-        CareersPage.openJobs().each((element, index, list) => {
+        CareersPage.openJobs().each((element) => {
         const jobTitle = element.text()
-        assert.isTrue(jobTitle.includes('QA Automation Engineer') || jobTitle.includes('QA Engineer'))
+        assert.isTrue(jobTitle.includes('QA Automation Engineer') || jobTitle.includes('QA Engineer'))        
         })
     })
 })

@@ -1,6 +1,6 @@
 {
     "watchForFileChanges": false,
-    "defaultCommandTimeOut":6000,
-    "chromeWebSecurity": false
+    "defaultCommandTimeOut": 6000,
+    "baseUrl": "https://10clouds.com"
 
 }

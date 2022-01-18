@@ -1,7 +1,7 @@
 class CareersPage{
 
     goToHomePage(){
-        cy.visit('https://10clouds.com/')
+        cy.visit('/')
     }
 
     navigateToTab(tabName){
